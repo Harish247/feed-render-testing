@@ -34,7 +34,7 @@ $(function() {
         it('all URLs defined',function(){
             allFeeds.forEach(function(element) {
                 expect(element.url).toBeDefined();
-                expect(element.url.length).not.toBe(0)
+                expect(element.url.length).not.toBe(0);
                 expect(element.url.length).toBeGreaterThan(0);
             });
         });
@@ -49,7 +49,7 @@ $(function() {
                 expect(element.name).toBeDefined();
                 expect(element.name.length).not.toBe(0);
             }, this);
-        })
+        });
     });
 
 
